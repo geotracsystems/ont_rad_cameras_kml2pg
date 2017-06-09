@@ -68,8 +68,7 @@ def main():
                             cameraRef = Srcs[i].get('src')
                             print(name, Coords, cameraDesc, cameraRef)
                             i=i+1 
-                       i=i+1
-           
+                       i=i+1      
       
     except Exception as err:
         print('FunctionName: %s',  err)
